@@ -1,0 +1,284 @@
+{
+  "paper_constants": {
+    "V_paper": 1.0127,
+    "V_iid": 1.00014,
+    "true_sr": 0.016667,
+    "phi": 0.9400000000000001,
+    "diag": 0.0319
+  },
+  "full_experiment": [
+    {
+      "DGP": "GARCH (correct)",
+      "Method": "Paper",
+      "Cover%": 93.2,
+      "Width": 0.13947,
+      "W_ratio": 1.0
+    },
+    {
+      "DGP": "GARCH (correct)",
+      "Method": "HAC",
+      "Cover%": 92.2,
+      "Width": 0.1377,
+      "W_ratio": 0.9873
+    },
+    {
+      "DGP": "GARCH (correct)",
+      "Method": "SB",
+      "Cover%": 92.5,
+      "Width": 0.13766,
+      "W_ratio": 0.9871
+    },
+    {
+      "DGP": "GARCH (correct)",
+      "Method": "Sub",
+      "Cover%": 97.0,
+      "Width": 0.15929,
+      "W_ratio": 1.1421
+    },
+    {
+      "DGP": "GARCH (correct)",
+      "Method": "IM",
+      "Cover%": 94.0,
+      "Width": 0.1637,
+      "W_ratio": 1.1737
+    },
+    {
+      "DGP": "EGARCH (mispecified)",
+      "Method": "Paper",
+      "Cover%": 93.0,
+      "Width": 0.13947,
+      "W_ratio": 1.0
+    },
+    {
+      "DGP": "EGARCH (mispecified)",
+      "Method": "HAC",
+      "Cover%": 92.5,
+      "Width": 0.13712,
+      "W_ratio": 0.9832
+    },
+    {
+      "DGP": "EGARCH (mispecified)",
+      "Method": "SB",
+      "Cover%": 91.0,
+      "Width": 0.13679,
+      "W_ratio": 0.9808
+    },
+    {
+      "DGP": "EGARCH (mispecified)",
+      "Method": "Sub",
+      "Cover%": 95.8,
+      "Width": 0.16167,
+      "W_ratio": 1.1592
+    },
+    {
+      "DGP": "EGARCH (mispecified)",
+      "Method": "IM",
+      "Cover%": 92.8,
+      "Width": 0.15944,
+      "W_ratio": 1.1432
+    },
+    {
+      "DGP": "Stable-law (T5.3)",
+      "Method": "Paper",
+      "Cover%": 93.2,
+      "Width": 0.13947,
+      "W_ratio": 1.0
+    },
+    {
+      "DGP": "Stable-law (T5.3)",
+      "Method": "HAC",
+      "Cover%": 92.0,
+      "Width": 0.13764,
+      "W_ratio": 0.9869
+    },
+    {
+      "DGP": "Stable-law (T5.3)",
+      "Method": "SB",
+      "Cover%": 91.2,
+      "Width": 0.13745,
+      "W_ratio": 0.9855
+    },
+    {
+      "DGP": "Stable-law (T5.3)",
+      "Method": "Sub",
+      "Cover%": 95.5,
+      "Width": 0.15577,
+      "W_ratio": 1.1169
+    },
+    {
+      "DGP": "Stable-law (T5.3)",
+      "Method": "IM",
+      "Cover%": 94.0,
+      "Width": 0.16322,
+      "W_ratio": 1.1703
+    }
+  ],
+  "stable_regime_coverage_vs_T": [
+    {
+      "T": 100,
+      "Method": "HAC",
+      "Cover%": 90.0
+    },
+    {
+      "T": 100,
+      "Method": "SB",
+      "Cover%": 89.1
+    },
+    {
+      "T": 100,
+      "Method": "Sub",
+      "Cover%": 96.2
+    },
+    {
+      "T": 100,
+      "Method": "IM",
+      "Cover%": 94.1
+    },
+    {
+      "T": 200,
+      "Method": "HAC",
+      "Cover%": 91.6
+    },
+    {
+      "T": 200,
+      "Method": "SB",
+      "Cover%": 90.9
+    },
+    {
+      "T": 200,
+      "Method": "Sub",
+      "Cover%": 97.8
+    },
+    {
+      "T": 200,
+      "Method": "IM",
+      "Cover%": 94.8
+    },
+    {
+      "T": 350,
+      "Method": "HAC",
+      "Cover%": 93.2
+    },
+    {
+      "T": 350,
+      "Method": "SB",
+      "Cover%": 92.7
+    },
+    {
+      "T": 350,
+      "Method": "Sub",
+      "Cover%": 96.6
+    },
+    {
+      "T": 350,
+      "Method": "IM",
+      "Cover%": 94.7
+    },
+    {
+      "T": 500,
+      "Method": "HAC",
+      "Cover%": 93.2
+    },
+    {
+      "T": 500,
+      "Method": "SB",
+      "Cover%": 91.8
+    },
+    {
+      "T": 500,
+      "Method": "Sub",
+      "Cover%": 97.4
+    },
+    {
+      "T": 500,
+      "Method": "IM",
+      "Cover%": 95.0
+    },
+    {
+      "T": 750,
+      "Method": "HAC",
+      "Cover%": 93.0
+    },
+    {
+      "T": 750,
+      "Method": "SB",
+      "Cover%": 92.9
+    },
+    {
+      "T": 750,
+      "Method": "Sub",
+      "Cover%": 94.8
+    },
+    {
+      "T": 750,
+      "Method": "IM",
+      "Cover%": 94.0
+    },
+    {
+      "T": 1000,
+      "Method": "HAC",
+      "Cover%": 93.4
+    },
+    {
+      "T": 1000,
+      "Method": "SB",
+      "Cover%": 91.8
+    },
+    {
+      "T": 1000,
+      "Method": "Sub",
+      "Cover%": 96.0
+    },
+    {
+      "T": 1000,
+      "Method": "IM",
+      "Cover%": 94.7
+    },
+    {
+      "T": 1500,
+      "Method": "HAC",
+      "Cover%": 94.1
+    },
+    {
+      "T": 1500,
+      "Method": "SB",
+      "Cover%": 92.3
+    },
+    {
+      "T": 1500,
+      "Method": "Sub",
+      "Cover%": 95.9
+    },
+    {
+      "T": 1500,
+      "Method": "IM",
+      "Cover%": 93.9
+    },
+    {
+      "T": 2000,
+      "Method": "HAC",
+      "Cover%": 93.1
+    },
+    {
+      "T": 2000,
+      "Method": "SB",
+      "Cover%": 93.0
+    },
+    {
+      "T": 2000,
+      "Method": "Sub",
+      "Cover%": 94.9
+    },
+    {
+      "T": 2000,
+      "Method": "IM",
+      "Cover%": 94.1
+    }
+  ],
+  "verdicts": {
+    "E1_HAC_narrower_than_paper_GARCH": true,
+    "E2_SB_stalls_in_stable_regime": true,
+    "E3_Sub_better_than_SB_in_stable": true,
+    "E4_IM_robust_in_stable_regime": true
+  }
+}
