@@ -1,0 +1,412 @@
+{
+  "description": "Section 12 \u2014 Empirical SNR Inference on Real Assets. Annualised Sharpe ratio CIs using Paper (Prop 4.7), HAC (E1), Stationary Bootstrap (E2), Subsampling (E3, PRW 1999), and Ibragimov\u2013M\u00fcller (E4, JBES 2010) methods. Author: Nihar Mahesh Jani.",
+  "data_window": {
+    "start": "2019-01-01",
+    "end": "2023-12-31"
+  },
+  "trading_days_per_year": 252,
+  "assets": [
+    {
+      "ticker": "SPY",
+      "label": "S&P 500 (SPY)",
+      "n_obs": 1257,
+      "regime": "stable-law",
+      "garch": {
+        "alpha": 0.17928,
+        "beta": 0.80783,
+        "phi": 0.9871,
+        "kz": 4.862,
+        "diag": -0.09851,
+        "df_t": 7.22,
+        "regime": "stable-law"
+      },
+      "stats": {
+        "mean_daily": 0.0005756,
+        "vol_daily": 0.013281,
+        "skewness": -0.8203,
+        "excess_kurt": 12.3634,
+        "sr_daily": 0.043337,
+        "sr_ann": 0.6879
+      },
+      "ci_daily": {
+        "Paper": [
+          null,
+          null
+        ],
+        "HAC": [
+          -0.009994,
+          0.096667
+        ],
+        "SB": [
+          -0.014614,
+          0.092268
+        ],
+        "Sub": [
+          -0.024741,
+          0.095291
+        ],
+        "IM": [
+          -0.005907,
+          0.142013
+        ]
+      },
+      "ci_ann": {
+        "Paper": [
+          null,
+          null
+        ],
+        "HAC": [
+          -0.1587,
+          1.5345
+        ],
+        "SB": [
+          -0.232,
+          1.4647
+        ],
+        "Sub": [
+          -0.3928,
+          1.5127
+        ],
+        "IM": [
+          -0.0938,
+          2.2544
+        ]
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "label": "Nasdaq-100 (QQQ)",
+      "n_obs": 1257,
+      "regime": "stable-law",
+      "garch": {
+        "alpha": 0.14443,
+        "beta": 0.84749,
+        "phi": 0.99192,
+        "kz": 4.416,
+        "diag": -0.05517,
+        "df_t": 8.24,
+        "regime": "stable-law"
+      },
+      "stats": {
+        "mean_daily": 0.0007997,
+        "vol_daily": 0.016061,
+        "skewness": -0.5695,
+        "excess_kurt": 6.3746,
+        "sr_daily": 0.049793,
+        "sr_ann": 0.7904
+      },
+      "ci_daily": {
+        "Paper": [
+          null,
+          null
+        ],
+        "HAC": [
+          -0.000816,
+          0.100402
+        ],
+        "SB": [
+          -0.005935,
+          0.098524
+        ],
+        "Sub": [
+          -0.01956,
+          0.099798
+        ],
+        "IM": [
+          -0.004843,
+          0.133055
+        ]
+      },
+      "ci_ann": {
+        "Paper": [
+          null,
+          null
+        ],
+        "HAC": [
+          -0.013,
+          1.5938
+        ],
+        "SB": [
+          -0.0942,
+          1.564
+        ],
+        "Sub": [
+          -0.3105,
+          1.5842
+        ],
+        "IM": [
+          -0.0769,
+          2.1122
+        ]
+      }
+    },
+    {
+      "ticker": "GLD",
+      "label": "Gold (GLD)",
+      "n_obs": 1257,
+      "regime": "finite-4th-moment",
+      "garch": {
+        "alpha": 0.0553,
+        "beta": 0.91623,
+        "phi": 0.97153,
+        "kz": 7.902,
+        "diag": 0.03502,
+        "df_t": 5.22,
+        "regime": "finite-4th-moment"
+      },
+      "stats": {
+        "mean_daily": 0.0003617,
+        "vol_daily": 0.009418,
+        "skewness": -0.2969,
+        "excess_kurt": 3.056,
+        "sr_daily": 0.038405,
+        "sr_ann": 0.6097
+      },
+      "ci_daily": {
+        "Paper": [
+          -0.017844,
+          0.094655
+        ],
+        "HAC": [
+          -0.015388,
+          0.092198
+        ],
+        "SB": [
+          -0.019253,
+          0.092501
+        ],
+        "Sub": [
+          -0.024036,
+          0.099238
+        ],
+        "IM": [
+          -0.023855,
+          0.102864
+        ]
+      },
+      "ci_ann": {
+        "Paper": [
+          -0.2833,
+          1.5026
+        ],
+        "HAC": [
+          -0.2443,
+          1.4636
+        ],
+        "SB": [
+          -0.3056,
+          1.4684
+        ],
+        "Sub": [
+          -0.3816,
+          1.5754
+        ],
+        "IM": [
+          -0.3787,
+          1.6329
+        ]
+      }
+    },
+    {
+      "ticker": "TLT",
+      "label": "Long Treasury (TLT)",
+      "n_obs": 1257,
+      "regime": "finite-4th-moment",
+      "garch": {
+        "alpha": 0.10214,
+        "beta": 0.87498,
+        "phi": 0.97712,
+        "kz": 3.288,
+        "diag": 0.02136,
+        "df_t": 24.8,
+        "regime": "finite-4th-moment"
+      },
+      "stats": {
+        "mean_daily": -8.01e-05,
+        "vol_daily": 0.011106,
+        "skewness": 0.117,
+        "excess_kurt": 4.4015,
+        "sr_daily": -0.007209,
+        "sr_ann": -0.1144
+      },
+      "ci_daily": {
+        "Paper": [
+          -0.062542,
+          0.048125
+        ],
+        "HAC": [
+          -0.056472,
+          0.042055
+        ],
+        "SB": [
+          -0.054093,
+          0.051094
+        ],
+        "Sub": [
+          -0.064073,
+          0.046833
+        ],
+        "IM": [
+          -0.080265,
+          0.078323
+        ]
+      },
+      "ci_ann": {
+        "Paper": [
+          -0.9928,
+          0.764
+        ],
+        "HAC": [
+          -0.8965,
+          0.6676
+        ],
+        "SB": [
+          -0.8587,
+          0.8111
+        ],
+        "Sub": [
+          -1.0171,
+          0.7435
+        ],
+        "IM": [
+          -1.2742,
+          1.2433
+        ]
+      }
+    },
+    {
+      "ticker": "BTC-USD",
+      "label": "Bitcoin (BTC-USD)",
+      "n_obs": 1824,
+      "regime": "stable-law",
+      "garch": {
+        "alpha": 0.06853,
+        "beta": 0.93147,
+        "phi": 1.0,
+        "kz": "inf",
+        "diag": -1.0,
+        "df_t": 2.95,
+        "regime": "stable-law"
+      },
+      "stats": {
+        "mean_daily": 0.0013131,
+        "vol_daily": 0.035446,
+        "skewness": -1.2269,
+        "excess_kurt": 18.9779,
+        "sr_daily": 0.037044,
+        "sr_ann": 0.588
+      },
+      "ci_daily": {
+        "Paper": [
+          null,
+          null
+        ],
+        "HAC": [
+          -0.010201,
+          0.084288
+        ],
+        "SB": [
+          -0.017407,
+          0.089829
+        ],
+        "Sub": [
+          -0.014685,
+          0.078271
+        ],
+        "IM": [
+          -0.020764,
+          0.112162
+        ]
+      },
+      "ci_ann": {
+        "Paper": [
+          null,
+          null
+        ],
+        "HAC": [
+          -0.1619,
+          1.338
+        ],
+        "SB": [
+          -0.2763,
+          1.426
+        ],
+        "Sub": [
+          -0.2331,
+          1.2425
+        ],
+        "IM": [
+          -0.3296,
+          1.7805
+        ]
+      }
+    },
+    {
+      "ticker": "EEM",
+      "label": "Emerging Mkts (EEM)",
+      "n_obs": 1257,
+      "regime": "finite-4th-moment",
+      "garch": {
+        "alpha": 0.10133,
+        "beta": 0.84735,
+        "phi": 0.94868,
+        "kz": 4.112,
+        "diag": 0.06804,
+        "df_t": 9.39,
+        "regime": "finite-4th-moment"
+      },
+      "stats": {
+        "mean_daily": 0.0001118,
+        "vol_daily": 0.014179,
+        "skewness": -0.9876,
+        "excess_kurt": 12.201,
+        "sr_daily": 0.007884,
+        "sr_ann": 0.1251
+      },
+      "ci_daily": {
+        "Paper": [
+          -0.047415,
+          0.063183
+        ],
+        "HAC": [
+          -0.04352,
+          0.059287
+        ],
+        "SB": [
+          -0.045831,
+          0.054981
+        ],
+        "Sub": [
+          -0.05599,
+          0.065164
+        ],
+        "IM": [
+          -0.063584,
+          0.091112
+        ]
+      },
+      "ci_ann": {
+        "Paper": [
+          -0.7527,
+          1.003
+        ],
+        "HAC": [
+          -0.6909,
+          0.9412
+        ],
+        "SB": [
+          -0.7275,
+          0.8728
+        ],
+        "Sub": [
+          -0.8888,
+          1.0344
+        ],
+        "IM": [
+          -1.0094,
+          1.4464
+        ]
+      }
+    }
+  ]
+}
