@@ -913,7 +913,7 @@ SSRN Working Paper 6568702. https://ssrn.com/abstract=6568702
 ```
 Jani, N. M. (2026). Robust SNR Inference under Volatility Clustering and
 Non-Gaussian Heavy Tails: Extensions via Subsampling and Self-Normalization.
-GitHub repository.
+GitHub repository(https://github.com/NiharJani2002/Robust-Signal-to-Noise-Ratio-Inference-under-Volatility-Clustering-and-Non-Gaussian-Heavy-Tails).
 Contact: niharmaheshjani@gmail.com
 ```
 
